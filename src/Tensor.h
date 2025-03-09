@@ -1,5 +1,8 @@
 #pragma once
 
+
+#ifndef TENSOR_H
+#define TENSOR_H
 class Tensor {
 private:
     int * size;
@@ -29,3 +32,4 @@ public:
     };
 };
 
+#endif
