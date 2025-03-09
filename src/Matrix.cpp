@@ -49,7 +49,18 @@ Matrix& Matrix::operator*=(double scalar) {
 
 // matrix multiplication
 Matrix Matrix::operator*(Matrix&  mat) const {
-    // TODO: implement matrix multiplication - use CUDA if possible - to make it faster
+    // TODO: use CUDA if possible - to make it faster
+    Matrix result(rows, mat.getCols());
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < mat.getCols(); j++) {
+            double sum = 0;
+            for (int k = 0; k < cols; k++) {
+                sum += this->get(i, k) * mat.get(k, j);
+            }
+            result.set(i, j, sum);
+        }
+    }
+    return result;
 }
 
 Matrix::Matrix(Matrix& other){
@@ -71,3 +82,28 @@ Matrix::Matrix(Matrix &&other) {
     other.rows = 0;
     other.cols = 0; 
 }
+
+
+void Matrix::swapCols(int col1, int col2){
+    if (col1 < 0 || col1 >= this->cols || col2 < 0 || col2 >= this->cols) {
+        std::cerr << "Invalid column indices" << std::endl;
+        return;
+    }
+
+    for (int i = 0; i < this->rows; i++) {
+        std::swap(this->data[i * this->cols + col1], this->data[i * this->cols + col2]);
+    }
+}
+
+
+void Matrix::swapRows(int row1, int row2){
+    if (row1 < 0 || row1 >= this->rows || row2 < 0 || row2 >= this->rows) {
+        std::cerr << "Invalid row indices" << std::endl;
+        return;
+    }
+
+    for (int j = 0; j < this->cols; j++) {
+        std::swap(this->data[row1 * this->cols + j], this->data[row2 * this->cols + j]);
+    }    
+}
+

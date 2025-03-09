@@ -35,6 +35,11 @@ public:
         this->data[i * cols + j] = value;
     }
 
+
+    void swapCols(int col1, int col2);
+
+    void swapRows(int row1, int row2);
+
     Matrix operator+(const Matrix &other) const ;
 
     // Copy constructor
