@@ -35,59 +35,24 @@ public:
         this->data[i * cols + j] = value;
     }
 
-    Matrix operator+(const Matrix &other) const {
-        Matrix result(rows, cols);
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                result.set(i, j, this->get(i, j) + other.get(i, j));
-            }
-        }
-        return result;
-    }
+    Matrix operator+(const Matrix &other) const ;
 
     // Copy constructor
     Matrix(Matrix& other);
 
     // Copy assignment operator
-    Matrix& operator=(const Matrix& other) {
-        if (this != &other) {
-            delete[] data;
-            this->rows = other.rows;
-            this->cols = other.cols;
-            this->data = new double[rows * cols];
-            std::copy(other.data, other.data + rows * cols, this->data);
-        }
-        return *this;
-    }
+    Matrix& operator=(const Matrix& other);
 
     // Move constructor
     Matrix(Matrix&& other);
 
     // Move assignment operator
-    Matrix&& operator=( Matrix&& other) {
-        if (this != &other) {
-            delete[] data;
-            this->rows = other.rows;
-            this->cols = other.cols;
-            this->data = other.data;
-            other.data = nullptr;
-        }
-        return std::move(*this);
-    }
+    Matrix&& operator=( Matrix&& other);
 
 
-    Matrix& operator*=(double scalar) {
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                this->data[i * cols + j] *= scalar;
-            }
-        }
-        return *this;
-    }
+    Matrix& operator*=(double scalar);
 
-    Matrix operator*(Matrix&  mat) const {
-        // TODO: implement matrix multiplication - use CUDA if possible
-    }
+    Matrix operator*(Matrix&  mat) const;
 
     ~Matrix(){delete[] data;};
 };
