@@ -18,7 +18,19 @@ public:
             totalSize *= size[i];
         }
         this->data = new double[totalSize];
+        for (int i = 0; i < totalSize; i++) {
+            this->data[i] = 0;
+        }
     };
+
+    double getData(int * indices) const {
+        if (sizeof(indices)/sizeof(indices[0] != sizeof(size)/sizeof(size[0]))) {
+            throw std::runtime_error("Index size mismatch");
+            return 0;
+        }
+
+        // TODO: implement index checking and one dimensional index checking
+    }
 
 
     int * getSize() const {
