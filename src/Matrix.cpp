@@ -1,6 +1,7 @@
 # include "Matrix.h"
 
 
+
 // matrix addition
 Matrix Matrix::operator+(const Matrix &other) const {
     Matrix result(rows, cols);
@@ -10,6 +11,14 @@ Matrix Matrix::operator+(const Matrix &other) const {
         }
     }
     return result;
+}
+
+void Matrix::operator+=( Matrix &other)  {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            this->data[i * cols + j] += other.get(i, j);
+        }
+    }
 }
 
 //copy assignment operator
@@ -107,3 +116,22 @@ void Matrix::swapRows(int row1, int row2){
     }    
 }
 
+std::ostream& operator<<(std::ostream& os, const Matrix& matrix){
+    for (int i = 0; i < matrix.rows; i++) {
+        for (int j = 0; j < matrix.cols; j++) {
+            os << matrix.get(i, j) << " ";
+        }
+        os << std::endl;
+    }
+    return os;
+}
+
+
+void Matrix::transpose(){
+    // rows will be cols and cols will be rows
+    for (int i = 0; i < rows; i++) {
+        for (int j = i + 1; j < cols; j++) {
+            std::swap(this->data[i * cols + j], this->data[j * cols + i]);
+        }
+    }
+}
