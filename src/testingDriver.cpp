@@ -1,5 +1,5 @@
 #include "Matrix.cpp"
-#include "Tensor.h"
+#include "Tensor.cpp"
 
 #include <iostream>
 using namespace std;
@@ -22,5 +22,11 @@ int main() {
     Matrix m5 = m3 * m4;
 
     cout << m5 << endl;
+
+    vector<int> size; 
+    size.push_back(2);
+    size.push_back(3);
+    size.push_back(10);
+    Tensor t{size};
 
 }
