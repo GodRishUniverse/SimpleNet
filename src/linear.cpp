@@ -1,9 +1,5 @@
 #include "Tensor.h"
 #include "Matrix.h"
-#include <random>
-
-
-// Xavier initialization
 
 
 Matrix linear(Matrix m1, int outrows) {
