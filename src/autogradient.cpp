@@ -6,3 +6,5 @@
 
 using namespace std;
 
+// TODO: Add autograd
+// Will use reverse accumulation of gradients 

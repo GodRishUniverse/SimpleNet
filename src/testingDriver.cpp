@@ -11,15 +11,15 @@ int main() {
     // Matrix m2(4,4);
     // cout << m2 << endl;
 
-    Matrix m3 {{1, 2}, {5, 6}, {9, 10}, {13, 14}};
+    simplenet::Matrix m3 {{1, 2}, {5, 6}, {9, 10}, {13, 14}};
 
     cout << m3 << endl;
 
-    Matrix m4({{1,4,5,6}, {7,8,9,10}});
+    simplenet::Matrix m4({{1,4,5,6}, {7,8,9,10}});
 
     cout << m4 << endl;
 
-    Matrix m5 = m3 * m4;
+    simplenet::Matrix m5 = m3 * m4;
 
     cout << m5 << endl;
 
@@ -27,6 +27,6 @@ int main() {
     size.push_back(2);
     size.push_back(3);
     size.push_back(10);
-    Tensor t{size};
+    simplenet::Tensor t{size};
 
 }
