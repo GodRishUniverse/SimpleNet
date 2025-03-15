@@ -1,6 +1,6 @@
 # include "Matrix.h"
 
-
+#include <random>
 
 // matrix addition
 Matrix Matrix::operator+(const Matrix &other) const {
@@ -135,3 +135,23 @@ void Matrix::transpose(){
         }
     }
 }
+
+// Xavier initialization
+static Matrix xavier(int inrows, int incols, int input_size, int output_size) {
+
+    std::random_device rd{};
+    std::mt19937 gen{rd()};
+ 
+
+    float stddev = sqrt(2.0 / (input_size + output_size));
+
+    std::normal_distribution<double> d{0.0,stddev};
+
+    Matrix m(inrows, incols);
+    for (int i = 0; i < inrows; i++) {
+        for (int j = 0; j < incols; j++) {
+            m.set(i, j, d(gen));
+        }
+    }
+    return m;
+} 

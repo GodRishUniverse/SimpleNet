@@ -88,6 +88,9 @@ public:
     ~Matrix(){delete[] data;};
     // print helper
     friend std::ostream& operator<<(std::ostream& os, const Matrix& matrix);
+
+    static Matrix xavier(int inrows, int incols, int input_size, int output_size);
+    
 };
 
 #endif // MATRIX_H
