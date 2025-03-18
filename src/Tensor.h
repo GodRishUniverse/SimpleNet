@@ -108,29 +108,79 @@ namespace simplenet{
                 delete[] data;
             }
         
-            // friend function - print the tensor to be added
         
-            // friend function - add tensors
+            // friend function - add tensors    
+            friend Tensor operator+(const Tensor &a, const Tensor &b) {
+                if (a.shape != b.shape){
+                    throw std::invalid_argument("Tensors must have the same shape");
+                }
+                Tensor result(a.shape);
+                for (ll i = 0; i < a.sizeOfTensor(); i++){
+                    result.data[i] = a.data[i] + b.data[i];
+                }
+                return result;
+            }
+
+            Tensor operator+=(const Tensor &other) {
+                if (this->shape != other.shape){
+                    throw std::invalid_argument("Tensors must have the same shape");
+                }
+                for (ll i = 0; i < other.sizeOfTensor(); i++){
+                    other.data[i] += other.data[i];
+                }
+                return *this;
+            }
+
+
+            // TODO: friend function - print the tensor to be added
         
             // friend function - subtract tensors
+            friend Tensor operator-(const Tensor &a, const Tensor &b) {
+                if (a.shape != b.shape){
+                    throw std::invalid_argument("Tensors must have the same shape");
+                }
+                Tensor result(a.shape);
+                for (ll i = 0; i < a.sizeOfTensor(); i++){
+                    result.data[i] = a.data[i] - b.data[i];
+                }
+                return result;
+            }
+
+            Tensor operator-=(const Tensor &other) {
+                if (this->shape != other.shape){
+                    throw std::invalid_argument("Tensors must have the same shape");
+                }
+                for (ll i = 0; i < other.sizeOfTensor(); i++){
+                    other.data[i] -= other.data[i];
+                }
+                return *this;
+            }
         
-            // friend function - multiply tensors - dot product
+            // TODO: friend function - multiply tensors - dot product
         
-            // reshape 
-        
-            // transpose
-        
+            // TODO: reshape 
+    
             // flatten
+            void flatten(){
+                // We already have a 1D tensor
+                std::vector<int> temp;
+                ll total = 1;
+                for (ll i = 0; i < this->shape.size(); i++){
+                    total *= this->shape[i];
+                }
+                temp.push_back(total);
+                this->shape = temp;
+            }
         
-            // unflatten
+            // TODO:unflatten
         
-            // unsqueeze
+            // TODO: unsqueeze
         
-            // squeeze
+            // TODO: squeeze
         
-            // concat
+            // TODO:concat
         
-            // stack    
+            // TODO: stack    
         
         
         };
