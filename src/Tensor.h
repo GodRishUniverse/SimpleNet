@@ -132,6 +132,11 @@ namespace simplenet{
             }
 
 
+            std::vector<int> getShape() const {
+                return this->shape;
+            }
+
+
             // TODO: friend function - print the tensor to be added
         
             // friend function - subtract tensors
@@ -179,6 +184,48 @@ namespace simplenet{
             // TODO: squeeze
         
             // TODO:concat
+            void concat(Tensor& other, int dim =0 ){
+                auto otherDims = other.getShape();
+                ll total = 1;
+                for (ll i = 0; i < this->shape.size(); i++){
+                    // check if the dimensions are the same                   
+                    if (i!=dim && this->shape[i] != otherDims[i]){
+                        throw std::invalid_argument("Tensors must have the same shape");
+                    }
+
+                    if (i == dim){
+                        total *= (this->shape[i] + otherDims[i]);
+                    }else{
+                        total *= this->shape[i];
+                    }
+                }
+
+                double * temp = new double[total];
+
+                auto tempShape = this->shape;
+                tempShape[dim] = this->shape[dim] + otherDims[dim];
+
+                ll stride = 1;
+                ll start = 0;
+
+            
+                for (ll j = dim+1; j < tempShape.size(); j++){
+                    stride *= tempShape[j];
+                }
+                // figure out how to add the data first and then the other data
+                for (ll j = 0; j < this->shape[dim]; j++){
+                    // TODO: figure out how to add the data
+
+                }
+                start += this->shape[dim] * stride;
+
+                for (ll j = 0; j < other.shape[dim]; j++){
+                    
+
+                }
+ 
+                
+            }
         
             // TODO: stack    
         
