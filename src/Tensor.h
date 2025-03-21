@@ -5,6 +5,7 @@
 using ll = long long;
 
 
+
 #ifndef TENSOR_H
 #define TENSOR_H
 namespace simplenet{
@@ -12,6 +13,8 @@ namespace simplenet{
         private:
             std::vector<int> shape;
             double * data;
+
+            double * getTensorDataFlat() const { return this->data; };
         public:
             // constructor when size and data are provided
             Tensor(std::vector<int> sizePassed) : shape(sizePassed) {
@@ -20,7 +23,7 @@ namespace simplenet{
                     total*= i;
                 }
         
-                std::cout << "Total Size: " << total<< std::endl; 
+                // std::cout << "Total Size: " << total<< std::endl; 
         
                 data = new double[total]; 
                 for (ll start = 0; start<total; start++){
@@ -41,6 +44,17 @@ namespace simplenet{
                 }
         
                 return data[start];
+            }
+
+            void printShape() const {
+                std::cout << "Shape: [";
+                for (ll i = 0; i < this->shape.size(); i++){
+                    std::cout << this->shape[i];
+                    if (i != this->shape.size()-1){
+                        std::cout << ", ";
+                    }
+                }
+                std::cout << "]" << std::endl;
             }
         
         
@@ -138,6 +152,29 @@ namespace simplenet{
 
 
             // TODO: friend function - print the tensor to be added
+            friend std::ostream& operator<<(std::ostream& os, const Tensor& tensor) {
+                int total_elements = 1;
+                for (int dim : tensor.shape) {
+                    total_elements *= dim;
+                }
+
+                os << "Tensor with shape: [";
+                for (size_t i = 0; i < tensor.shape.size(); ++i) {
+                    os << tensor.shape[i];
+                    if (i != tensor.shape.size() - 1) os << ", ";
+                }
+                os << "]\n";
+
+                os << "Tensor data: \n";
+                for (int i = 0; i < total_elements; ++i) {
+                    os << tensor.data[i] << " ";
+                }
+                os << std::endl;
+
+                return os;
+            }
+
+            
         
             // friend function - subtract tensors
             friend Tensor operator-(const Tensor &a, const Tensor &b) {
@@ -220,14 +257,48 @@ namespace simplenet{
                 start += this->shape[dim] * stride;
 
                 for (ll j = 0; j < other.shape[dim]; j++){
-                    
+                    // TODO: figure out how to add the data
+
 
                 }
  
                 
             }
         
-            // TODO: stack    
+            
+            void stack(std::initializer_list<Tensor> tensors){
+                if (tensors.size() == 0) {
+                    throw std::invalid_argument("At least one tensor is required for stacking.");
+                }
+
+                for (const Tensor& tensor : tensors){
+                    if (tensor.shape != this->shape){
+                        throw std::invalid_argument("Tensors must have the same shape");
+                    }
+                }
+
+                ll total = (tensors.size()+1) * this->sizeOfTensor();
+                double * temp = new double[total];
+                ll stride = this->sizeOfTensor();
+
+                this->shape.insert(this->shape.begin(), tensors.size()+1);
+                
+                
+                std::copy(this->data, this->data + stride, temp + 0);
+                ll start = stride;
+                for (const Tensor& tensor : tensors){
+                    double * tempData = tensor.getTensorDataFlat();
+                    
+                    std::copy(tempData, tempData + stride, temp + start); // copy the data
+                    start += stride;
+                }
+                
+                
+                if (this->data != nullptr) {
+                    delete[] this->data;
+                }
+                this->data = temp;
+            }
         
         
         };

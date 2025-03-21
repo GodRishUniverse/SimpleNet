@@ -26,7 +26,18 @@ int main() {
     vector<int> size; 
     size.push_back(2);
     size.push_back(3);
-    size.push_back(10);
+    size.push_back(2);
     simplenet::Tensor t{size};
+    cout << t << endl;
+    simplenet::Tensor t2{size};
+    cout << t2 << endl;
+    simplenet::Tensor t3{size};
+    cout << t3 << endl;
+
+    t.stack({t2, t3});
+    t.printShape();
+
+    cout << t << endl;
+
 
 }
