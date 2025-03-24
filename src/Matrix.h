@@ -9,21 +9,27 @@
 
 // TODO: Templatify Matrix class so that it can work with any data type
 namespace simplenet{
+
+
+    template<typename T> class Matrix;
+    template<typename T> std::ostream& operator<<(std::ostream& os, const Matrix<T>& matrix);
+  
+    template <typename T>
     class Matrix
     {
     private:
         int rows;
         int cols;
-        double *data; // flattened representation of the matrix
+        T *data; // flattened representation of the matrix
 
     public:
-        Matrix(int rows, int cols) : rows(rows), cols(cols), data(new double[rows * cols]) {
+        Matrix<T>(int rows, int cols) : rows(rows), cols(cols), data(new T[rows * cols]) {
             for (int i = 0; i < rows * cols; i++) {
                 this->data[i] = 0;
             }
         };
 
-        Matrix(std::initializer_list<std::initializer_list<double>> dataPassed) : rows(dataPassed.size()), cols(dataPassed.begin()->size()), data(new double[rows * cols]) {
+        Matrix<T>(std::initializer_list<std::initializer_list<T>> dataPassed) : rows(dataPassed.size()), cols(dataPassed.begin()->size()), data(new T[rows * cols]) {
             int i = 0;
             int j = 0;
 
@@ -45,11 +51,11 @@ namespace simplenet{
             return this->cols;
         }
 
-        double get(int i, int j) const {
+        T get(int i, int j) const {
             return this->data[i * cols + j];
         }
 
-        void set(int i, int j, double value) {
+        void set(int i, int j, T value) {
             this->data[i * cols + j] = value;
         }
 
@@ -63,36 +69,36 @@ namespace simplenet{
         void swapRows(int row1, int row2);
 
         // matrix addition
-        Matrix operator+(const Matrix &other) const ;
+        Matrix<T> operator+(const Matrix<T> &other) const ;
 
         // matrix addition
-        void operator+=(Matrix &other) ;
+        void operator+=(Matrix<T> &other) ;
 
         // Copy constructor
-        Matrix(Matrix& other);
+        Matrix(Matrix<T>& other);
 
         // Copy assignment operator
-        Matrix& operator=(const Matrix& other);
+        Matrix<T>& operator=(const Matrix<T>& other);
 
         // Move constructor
-        Matrix(Matrix&& other);
+        Matrix(Matrix<T>&& other);
 
         // Move assignment operator
         Matrix&& operator=( Matrix&& other);
 
         // scalar multiplication
-        Matrix& operator*=(double scalar);
+        Matrix<T>& operator*=(T scalar);
         // matrix multiplication
-        Matrix operator*(Matrix&  mat) const;
+        Matrix<T> operator*(Matrix<T>&  mat) const;
         // destructor
         ~Matrix(){delete[] data;};
         // print helper
-        friend std::ostream& operator<<(std::ostream& os, const Matrix& matrix);
+        friend std::ostream& operator<< <T>(std::ostream& os, const Matrix<T>& matrix);
 
-        static Matrix xavier(int inrows, int incols, int input_size, int output_size);
+        static Matrix<T> xavier(int inrows, int incols, int input_size, int output_size);
 
-        bool operator==(const Matrix &m) const;
-        bool operator!=(const Matrix &m) const;
+        bool operator==(const Matrix<T> &m) const;
+        bool operator!=(const Matrix<T> &m) const;
         
     };
 

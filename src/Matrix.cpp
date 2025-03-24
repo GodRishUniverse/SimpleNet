@@ -4,7 +4,8 @@
 
 // matrix addition
 namespace simplenet{
-    Matrix Matrix::operator+(const Matrix &other) const {
+    template<typename T>
+    Matrix<T> Matrix<T>::operator+(const Matrix<T> &other) const {
         Matrix result(rows, cols);
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
@@ -13,8 +14,9 @@ namespace simplenet{
         }
         return result;
     }
-    
-    void Matrix::operator+=( Matrix &other)  {
+
+    template<typename T>
+    void Matrix<T>::operator+=( Matrix<T> &other)  {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 this->data[i * cols + j] += other.get(i, j);
@@ -23,19 +25,21 @@ namespace simplenet{
     }
     
     //copy assignment operator
-    Matrix& Matrix::operator=(const Matrix& other) {
+    template<typename T>
+    Matrix<T>& Matrix<T>::operator=(const Matrix<T>& other) {
         if (this != &other) {
             delete[] data;
             this->rows = other.rows;
             this->cols = other.cols;
-            this->data = new double[rows * cols];
+            this->data = new T[rows * cols];
             std::copy(other.data, other.data + rows * cols, this->data);
         }
         return *this;
     }
     
     // move assignment operator
-    Matrix&& Matrix::operator=( Matrix&& other) {
+    template<typename T>
+    Matrix<T>&& Matrix<T>::operator=( Matrix<T>&& other) {
         if (this != &other) {
             delete[] data;
             this->rows = other.rows;
@@ -47,7 +51,8 @@ namespace simplenet{
     }
     
     // scalar multiplication
-    Matrix& Matrix::operator*=(double scalar) {
+    template<typename T>
+    Matrix<T>& Matrix<T>::operator*=(T scalar) {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 this->data[i * cols + j] *= scalar;
@@ -58,12 +63,13 @@ namespace simplenet{
     
     
     // matrix multiplication
-    Matrix Matrix::operator*(Matrix&  mat) const {
+    template<typename T>
+    Matrix<T> Matrix<T>::operator*(Matrix<T>&  mat) const {
         // TODO: use CUDA if possible - to make it faster
         Matrix result(rows, mat.getCols());
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < mat.getCols(); j++) {
-                double sum = 0;
+                T sum = 0;
                 for (int k = 0; k < cols; k++) {
                     sum += this->get(i, k) * mat.get(k, j);
                 }
@@ -73,10 +79,11 @@ namespace simplenet{
         return result;
     }
     
-    Matrix::Matrix(Matrix& other){
+    template<typename T>
+    Matrix<T>::Matrix(Matrix<T>& other){
         this->rows = other.rows;
         this->cols = other.cols;
-        this->data = new double[rows * cols];
+        this->data = new T[rows * cols];
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 this->data[i * cols + j] = other.get(i, j);
@@ -84,7 +91,8 @@ namespace simplenet{
         }
     }
     
-    Matrix::Matrix(Matrix &&other) {
+    template<typename T>
+    Matrix<T>::Matrix(Matrix<T> &&other) {
         this->rows = other.rows;
         this->cols = other.cols;
         std::swap(this->data, other.data);
@@ -94,7 +102,8 @@ namespace simplenet{
     }
     
     
-    void Matrix::swapCols(int col1, int col2){
+    template<typename T>
+    void Matrix<T>::swapCols(int col1, int col2){
         if (col1 < 0 || col1 >= this->cols || col2 < 0 || col2 >= this->cols) {
             std::cerr << "Invalid column indices" << std::endl;
             return;
@@ -105,8 +114,8 @@ namespace simplenet{
         }
     }
     
-    
-    void Matrix::swapRows(int row1, int row2){
+    template<typename T>
+    void Matrix<T>::swapRows(int row1, int row2){
         if (row1 < 0 || row1 >= this->rows || row2 < 0 || row2 >= this->rows) {
             std::cerr << "Invalid row indices" << std::endl;
             return;
@@ -117,7 +126,8 @@ namespace simplenet{
         }    
     }
     
-    std::ostream& operator<<(std::ostream& os, const Matrix& matrix){
+    template<typename T>
+    std::ostream& operator<<(std::ostream& os, const Matrix<T>& matrix){
         for (int i = 0; i < matrix.rows; i++) {
             for (int j = 0; j < matrix.cols; j++) {
                 os << matrix.get(i, j) << " ";
@@ -127,8 +137,8 @@ namespace simplenet{
         return os;
     }
     
-    
-    void Matrix::transpose(){
+    template<typename T>
+    void Matrix<T>::transpose(){
         // rows will be cols and cols will be rows
         for (int i = 0; i < rows; i++) {
             for (int j = i + 1; j < cols; j++) {
@@ -138,7 +148,8 @@ namespace simplenet{
     }
     
     // Xavier initialization
-    static Matrix xavier(int inrows, int incols, int input_size, int output_size) {
+    template<typename T>
+    static Matrix<T> xavier(int inrows, int incols, int input_size, int output_size) {
     
         std::random_device rd{};
         std::mt19937 gen{rd()};
@@ -151,14 +162,14 @@ namespace simplenet{
         Matrix m(inrows, incols);
         for (int i = 0; i < inrows; i++) {
             for (int j = 0; j < incols; j++) {
-                m.set(i, j, d(gen));
+                m.set(i, j, static_cast<T>(d(gen)));
             }
         }
         return m;
     } 
     
-    
-    bool Matrix::operator==(const Matrix &m) const{
+    template<typename T>
+    bool Matrix<T>::operator==(const Matrix<T> &m) const{
         if (this->rows != m.rows || this->cols != m.cols) {
             return false;
         }
@@ -171,7 +182,8 @@ namespace simplenet{
         }
         return true;
     }
-    bool Matrix::operator!=(const Matrix &m) const {
+    template<typename T>
+    bool Matrix<T>::operator!=(const Matrix<T> &m) const {
         return !(*this == m);
     }
     
