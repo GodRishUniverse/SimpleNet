@@ -4,19 +4,22 @@
 
 // matrix addition
 namespace simplenet{
-    template<typename T>
-    Matrix<T> Matrix<T>::operator+(const Matrix<T> &other) const {
-        Matrix result(rows, cols);
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                result.set(i, j, this->get(i, j) + other.get(i, j));
-            }
+    template<typename U>
+    Matrix<U> operator+(Matrix<U> &other1,  Matrix<U> &other2) {
+        if (other1.getRows() != other2.getRows() || other1.getCols() != other2.getCols()) {
+            throw std::invalid_argument("Matrices must have the same dimensions for addition.");
         }
-        return result;
+        // saving memory by using +=
+        Matrix<U> res = other1;
+        res += other2;
+        return res;
     }
 
     template<typename T>
     void Matrix<T>::operator+=( Matrix<T> &other)  {
+        if (other.getRows() != this->rows || other.getCols() != this->cols) {
+            throw std::invalid_argument("Matrices must have the same dimensions for addition.");
+        }
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 this->data[i * cols + j] += other.get(i, j);

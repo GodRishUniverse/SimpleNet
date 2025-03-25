@@ -17,6 +17,8 @@ int main() {
 
     simplenet::Matrix<int> m4({{1,4,5,6}, {7,8,9,10}});
 
+    simplenet::Matrix<int> m6({{1,4,5,6}, {7,8,9,10}});
+
     cout << m4 << endl;
 
     simplenet::Matrix<int> m5 = m3 * m4;
@@ -38,6 +40,8 @@ int main() {
     t.printShape();
 
     cout << t << endl;
+
+    cout << m4 + m6 << endl;
 
 
 }

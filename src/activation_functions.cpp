@@ -9,7 +9,8 @@
 namespace simplenet::activation_functions{
 
     // Linear
-    Matrix linear(Matrix &m1, int outrows) {
+    template<typename T>
+    Matrix<T> linear(Matrix<T> &m1, int outrows) {
         // need a way to initialize the weight matrix here.
         int inrows = m1.getRows();
         int incols = m1.getCols();
@@ -29,9 +30,9 @@ namespace simplenet::activation_functions{
         return 1.0 / (1.0 + exp(-x));
     }
 
-
-    Matrix sigmoid(Matrix &m) {
-        Matrix result(m.getRows(), m.getCols());
+    template<typename T>
+    Matrix<T> sigmoid(Matrix<T> &m) {
+        Matrix<T> result(m.getRows(), m.getCols());
         for (int i = 0; i < m.getRows(); i++) {
             for (int j = 0; j < m.getCols(); j++) {
                 result.set(1.0/(1.0 + exp(-m.get(i, j))),i,j);
@@ -44,8 +45,9 @@ namespace simplenet::activation_functions{
         return std::max(0.0, x);
     }
 
-    Matrix relu(Matrix &m) {
-        Matrix result(m.getRows(), m.getCols());
+    template<typename T>
+    Matrix<T> relu(Matrix<T> &m) {
+        Matrix<T> result(m.getRows(), m.getCols());
         for (int i = 0; i < m.getRows(); i++) {
             for (int j = 0; j < m.getCols(); j++) {
                 result.set(std::max(0.0, m.get(i, j)), i, j);
@@ -58,8 +60,9 @@ namespace simplenet::activation_functions{
         return std::max(leaky * x, x);
     }
 
-    Matrix leaky_relu(Matrix &m, double leaky) {
-        Matrix result(m.getRows(), m.getCols());
+    template<typename T>
+    Matrix<T> leaky_relu(Matrix<T> &m, double leaky) {
+        Matrix<T> result(m.getRows(), m.getCols());
         for (int i = 0; i < m.getRows(); i++) {
             for (int j = 0; j < m.getCols(); j++) {
                 result.set(std::max(leaky * m.get(i, j), m.get(i, j)), i, j);

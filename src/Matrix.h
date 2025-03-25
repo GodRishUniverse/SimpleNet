@@ -69,7 +69,8 @@ namespace simplenet{
         void swapRows(int row1, int row2);
 
         // matrix addition
-        Matrix<T> operator+(const Matrix<T> &other) const ;
+        template<typename U>
+        friend Matrix<U> operator+(const Matrix<U>& other1, const Matrix<U>& other2);
 
         // matrix addition
         void operator+=(Matrix<T> &other) ;
