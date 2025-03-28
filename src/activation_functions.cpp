@@ -8,6 +8,8 @@
 
 namespace simplenet::activation_functions{
 
+    const double M_PI = 3.14159265358979323846;
+
     // Linear
     template<typename T>
     Matrix<T> linear(Matrix<T> &m1, int outrows) {
@@ -35,7 +37,7 @@ namespace simplenet::activation_functions{
         Matrix<T> result(m.getRows(), m.getCols());
         for (int i = 0; i < m.getRows(); i++) {
             for (int j = 0; j < m.getCols(); j++) {
-                result.set(1.0/(1.0 + exp(-m.get(i, j))),i,j);
+                result.set(sigmoid(m.get(i, j)),i,j);
             }
         }    
     }
@@ -69,6 +71,53 @@ namespace simplenet::activation_functions{
             }
         }    
     }
+
+    // SiLU
+    double silu(double x) {
+        return x / (1.0 + exp(-x));
+    }
+
+    template<typename T>
+    Matrix<T> silu(Matrix<T> &m) {
+        Matrix<T> result(m.getRows(), m.getCols());
+        for (int i = 0; i < m.getRows(); i++) {
+            for (int j = 0; j < m.getCols(); j++) {
+                result.set(silu(m.get(i, j)), i, j);
+            }
+        }    
+    }
+
+    // Tanh
+    double tanh(double x) {
+        return (exp(2*x)-1)/(exp(2*x)+1); 
+    }
+
+    template<typename T>
+    Matrix<T> tanh(Matrix<T> &m) {
+        Matrix<T> result(m.getRows(), m.getCols());
+        for (int i = 0; i < m.getRows(); i++) {
+            for (int j = 0; j < m.getCols(); j++) {
+                result.set(tanh(m.get(i, j)), i, j);
+            }
+        }    
+    }
+
+    //gelu GELU(x)=0.5∗x∗(1+Tanh( sqrt(2/π)(x+0.044715∗x^3))
+    
+    double gelu(double x) {
+        return 0.5 * x * (1 + tanh(sqrt(2 / M_PI) * (x + 0.044715 * pow(x, 3))));
+    }
+
+    template<typename T>
+    Matrix<T> gelu(Matrix<T> &m) {
+        Matrix<T> result(m.getRows(), m.getCols());
+        for (int i = 0; i < m.getRows(); i++) {
+            for (int j = 0; j < m.getCols(); j++) {
+                result.set(gelu(m.get(i, j)), i, j);
+            }
+        }    
+    }
+
 
 }
 
