@@ -608,3 +608,7 @@ Rishabh Agarwal ([@GodRishUniverse](https://github.com/GodRishUniverse))
 >
 > [4] [intuitive convolution](https://betterexplained.com/articles/intuitive-convolution/)
 >
+
+## AI Disclosure
+
+Claude code was used for refactoring and understanding concepts and add comments in some places (I highly encourage you to read the code!!!). I wrote most of my code myself and you can check Git history for that.
