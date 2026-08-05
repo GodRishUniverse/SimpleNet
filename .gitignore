@@ -8,3 +8,5 @@
 Documentation/
 .clangd
 compile_commands.json
+.cache/
+.claude/
