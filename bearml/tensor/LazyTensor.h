@@ -69,6 +69,7 @@ namespace bearml {
         bool is_sliced_view;
     };
 
+    // why not just make the graph and then call hip/cuda graphs directly and split the hip/cuda graphs where the ops dont exist (like we dont have kernels)??
     template <typename T>
     class LazyTensorNode {
         public:

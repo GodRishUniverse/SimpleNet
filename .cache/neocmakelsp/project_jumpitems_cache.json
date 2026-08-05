@@ -1,0 +1,3337 @@
+{
+  "date": "2026-07-28T18:53:57.641276413-04:00",
+  "data": {
+    "Boost_MAJOR_VERSION": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 227,
+            "character": 4
+          },
+          "end": {
+            "line": 227,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "_indent": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 680,
+            "character": 8
+          },
+          "end": {
+            "line": 680,
+            "character": 15
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "boost_find_all_components": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 176,
+            "character": 6
+          },
+          "end": {
+            "line": 176,
+            "character": 31
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": true
+    },
+    "Boost_${_BOOST_COMP}_LIBRARY": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 155,
+            "character": 8
+          },
+          "end": {
+            "line": 155,
+            "character": 36
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "PACKAGE_VERSION_COMPATIBLE": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfigVersion.cmake",
+        "range": {
+          "start": {
+            "line": 7,
+            "character": 6
+          },
+          "end": {
+            "line": 7,
+            "character": 32
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfigVersion.cmake",
+      "is_function": false
+    },
+    "${out_var}": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 496,
+            "character": 6
+          },
+          "end": {
+            "line": 496,
+            "character": 16
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "gtest_case_name_regex": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 426,
+            "character": 6
+          },
+          "end": {
+            "line": 426,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "_D_CMAKE_GENERATOR_INSTANCE": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CheckLanguage.cmake",
+        "range": {
+          "start": {
+            "line": 124,
+            "character": 10
+          },
+          "end": {
+            "line": 124,
+            "character": 37
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CheckLanguage.cmake",
+      "is_function": false
+    },
+    "GOOGLETEST_VERSION": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 6,
+            "character": 4
+          },
+          "end": {
+            "line": 6,
+            "character": 22
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "generate_apple_architecture_selection_file": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 584,
+            "character": 9
+          },
+          "end": {
+            "line": 584,
+            "character": 51
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": true
+    },
+    "cxx_exception": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 149,
+            "character": 6
+          },
+          "end": {
+            "line": 149,
+            "character": 19
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake\n\nFor building gtest's own tests and samples.",
+      "is_function": false
+    },
+    "CMAKE_CXX_COMPILER": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 24,
+            "character": 4
+          },
+          "end": {
+            "line": 24,
+            "character": 22
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+      "is_function": false
+    },
+    "CMAKE_EXPORT_COMPILE_COMMANDS": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 41,
+            "character": 4
+          },
+          "end": {
+            "line": 41,
+            "character": 33
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+      "is_function": false
+    },
+    "Boost_MINOR_VERSION": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 228,
+            "character": 4
+          },
+          "end": {
+            "line": 228,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "check_language": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CheckLanguage.cmake",
+        "range": {
+          "start": {
+            "line": 87,
+            "character": 6
+          },
+          "end": {
+            "line": 87,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/share/cmake/Modules/CheckLanguage.cmake",
+      "is_function": true
+    },
+    "__GNUInstallDirs_default_in_usr": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 402,
+            "character": 9
+          },
+          "end": {
+            "line": 402,
+            "character": 40
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nCommon handler for defaults that should be in usr/<dir>",
+      "is_function": true
+    },
+    "CMAKE_DEPENDENT_OPTION": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakeDependentOption.cmake",
+        "range": {
+          "start": {
+            "line": 210,
+            "character": 6
+          },
+          "end": {
+            "line": 210,
+            "character": 28
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/share/cmake/Modules/CMakeDependentOption.cmake",
+      "is_function": true
+    },
+    "GNUInstallDirs_get_absolute_install_dir": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 640,
+            "character": 9
+          },
+          "end": {
+            "line": 640,
+            "character": 48
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": true
+    },
+    "cxx_default": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 152,
+            "character": 6
+          },
+          "end": {
+            "line": 152,
+            "character": 17
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+      "is_function": false
+    },
+    "__boost_comp_found": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 142,
+            "character": 6
+          },
+          "end": {
+            "line": 142,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "ctest_test_name": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 521,
+            "character": 12
+          },
+          "end": {
+            "line": 521,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_RUNSTATEDIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 583,
+            "character": 4
+          },
+          "end": {
+            "line": 583,
+            "character": 39
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "installPrefix": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 438,
+            "character": 8
+          },
+          "end": {
+            "line": 438,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "_branch_${_opt}": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 572,
+            "character": 10
+          },
+          "end": {
+            "line": 572,
+            "character": 25
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "cxx_executable": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 244,
+            "character": 9
+          },
+          "end": {
+            "line": 244,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake\n\nthe source file list.",
+      "is_function": true
+    },
+    "gmock_build_tests": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googlemock/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 10,
+            "character": 7
+          },
+          "end": {
+            "line": 10,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googlemock/CMakeLists.txt",
+      "is_function": false
+    },
+    "cxx_no_rtti_flags": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 137,
+            "character": 8
+          },
+          "end": {
+            "line": 137,
+            "character": 25
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake\n\nRTTI can not be disabled in HP aCC compiler.",
+      "is_function": false
+    },
+    "_BOOST_REQUIRED": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 112,
+            "character": 8
+          },
+          "end": {
+            "line": 112,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "cmake_files_install_dir": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 93,
+            "character": 6
+          },
+          "end": {
+            "line": 93,
+            "character": 29
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "cxx_executable_with_flags": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 216,
+            "character": 9
+          },
+          "end": {
+            "line": 216,
+            "character": 34
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake\n\nis built from the given source files with the given compiler flags.",
+      "is_function": true
+    },
+    "BUILD_SHARED_LIBS": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 60,
+            "character": 9
+          },
+          "end": {
+            "line": 60,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt\n\nmake it prominent in the GUI.",
+      "is_function": false
+    },
+    "INSTALL_GTEST": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 19,
+            "character": 7
+          },
+          "end": {
+            "line": 19,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "_GNUInstallDirs_LOCALEDIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 581,
+            "character": 4
+          },
+          "end": {
+            "line": 581,
+            "character": 37
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "_else": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 561,
+            "character": 6
+          },
+          "end": {
+            "line": 561,
+            "character": 11
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "gtest_build_tests": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 17,
+            "character": 7
+          },
+          "end": {
+            "line": 17,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "version_file": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 94,
+            "character": 6
+          },
+          "end": {
+            "line": 94,
+            "character": 18
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "arg_EXTRA_ARGS": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 656,
+            "character": 8
+          },
+          "end": {
+            "line": 656,
+            "character": 22
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "ctest_include_file": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 615,
+            "character": 6
+          },
+          "end": {
+            "line": 615,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_SHAREDSTATEDIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 423,
+            "character": 4
+          },
+          "end": {
+            "line": 423,
+            "character": 42
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "arg_WORKING_DIRECTORY": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 576,
+            "character": 8
+          },
+          "end": {
+            "line": 576,
+            "character": 29
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "line": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 441,
+            "character": 8
+          },
+          "end": {
+            "line": 441,
+            "character": 12
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "accumulated": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 460,
+            "character": 12
+          },
+          "end": {
+            "line": 460,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake\n\nReset accumulated for the next match",
+      "is_function": false
+    },
+    "_GNUInstallDirs_OLDINCLUDEDIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 427,
+            "character": 4
+          },
+          "end": {
+            "line": 427,
+            "character": 41
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "cxx_library": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 208,
+            "character": 9
+          },
+          "end": {
+            "line": 208,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+      "is_function": true
+    },
+    "gmock_build_include_dirs": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googlemock/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 70,
+            "character": 4
+          },
+          "end": {
+            "line": 70,
+            "character": 28
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googlemock/CMakeLists.txt",
+      "is_function": false
+    },
+    "WRITE_BASIC_CONFIG_VERSION_FILE": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake",
+        "range": {
+          "start": {
+            "line": 23,
+            "character": 9
+          },
+          "end": {
+            "line": 23,
+            "character": 40
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake",
+      "is_function": true
+    },
+    "CMAKE_CUDA_HOST_COMPILER": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 34,
+            "character": 4
+          },
+          "end": {
+            "line": 34,
+            "character": 28
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+      "is_function": false
+    },
+    "BEARML_CUDA_ENABLED": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 71,
+            "character": 6
+          },
+          "end": {
+            "line": 71,
+            "character": 25
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+      "is_function": false
+    },
+    "Boost_VERSION_MACRO": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 232,
+            "character": 4
+          },
+          "end": {
+            "line": 232,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "CMAKE_CXX_VISIBILITY_PRESET": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 75,
+            "character": 6
+          },
+          "end": {
+            "line": 75,
+            "character": 33
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "${option}_AVAILABLE": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakeDependentOption.cmake",
+        "range": {
+          "start": {
+            "line": 230,
+            "character": 14
+          },
+          "end": {
+            "line": 230,
+            "character": 33
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeDependentOption.cmake",
+      "is_function": false
+    },
+    "_output_variables": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CheckLanguage.cmake",
+        "range": {
+          "start": {
+            "line": 108,
+            "character": 8
+          },
+          "end": {
+            "line": 108,
+            "character": 25
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CheckLanguage.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_RUNSTATEDIR_get_default": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 495,
+            "character": 9
+          },
+          "end": {
+            "line": 495,
+            "character": 48
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nDepends on current CMAKE_INSTALL_LOCALSTATEDIR value",
+      "is_function": true
+    },
+    "CVF_VERSION": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake",
+        "range": {
+          "start": {
+            "line": 44,
+            "character": 10
+          },
+          "end": {
+            "line": 44,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake",
+      "is_function": false
+    },
+    "extra_args": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 487,
+            "character": 10
+          },
+          "end": {
+            "line": 487,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "BUILD_GMOCK": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 18,
+            "character": 7
+          },
+          "end": {
+            "line": 18,
+            "character": 18
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/CMakeLists.txt\n\nNote that googlemock target already builds googletest.",
+      "is_function": false
+    },
+    "CMAKE_GTEST_DISCOVER_TESTS_DISCOVERY_MODE": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 586,
+            "character": 10
+          },
+          "end": {
+            "line": 586,
+            "character": 51
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "Boost_LIBRARIES": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 235,
+            "character": 4
+          },
+          "end": {
+            "line": 235,
+            "character": 19
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "_options": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 585,
+            "character": 6
+          },
+          "end": {
+            "line": 585,
+            "character": 14
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_INCLUDEDIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 426,
+            "character": 4
+          },
+          "end": {
+            "line": 426,
+            "character": 38
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "gtest_disable_pthreads": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 21,
+            "character": 7
+          },
+          "end": {
+            "line": 21,
+            "character": 29
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "arg_DISCOVERY_TIMEOUT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 582,
+            "character": 8
+          },
+          "end": {
+            "line": 582,
+            "character": 29
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "autoAddSources": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 394,
+            "character": 8
+          },
+          "end": {
+            "line": 394,
+            "character": 22
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "counter": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 605,
+            "character": 8
+          },
+          "end": {
+            "line": 605,
+            "character": 15
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "config_compiler_and_linker": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 59,
+            "character": 6
+          },
+          "end": {
+            "line": 59,
+            "character": 32
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake\n\nvariable's value is empty before it's explicitly assigned to.",
+      "is_function": true
+    },
+    "GTEST_HAS_PTHREAD_MACRO": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 144,
+            "character": 8
+          },
+          "end": {
+            "line": 144,
+            "character": 31
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+      "is_function": false
+    },
+    "__GNUInstallDirs_default_in_root": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 392,
+            "character": 9
+          },
+          "end": {
+            "line": 392,
+            "character": 41
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\ni.e. SYSCONFDIR and LOCALSTATEDIR",
+      "is_function": true
+    },
+    "_GNUInstallDirs_SBINDIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 420,
+            "character": 4
+          },
+          "end": {
+            "line": 420,
+            "character": 35
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "build_dir": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 284,
+            "character": 8
+          },
+          "end": {
+            "line": 284,
+            "character": 17
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+      "is_function": false
+    },
+    "WRITE_BASIC_PACKAGE_VERSION_FILE": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 412,
+            "character": 6
+          },
+          "end": {
+            "line": 412,
+            "character": 38
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": true
+    },
+    "ctest_tests_file": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 724,
+            "character": 10
+          },
+          "end": {
+            "line": 724,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_cache_path": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 274,
+            "character": 9
+          },
+          "end": {
+            "line": 274,
+            "character": 35
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nCreate a cache variable with default for a path.",
+      "is_function": true
+    },
+    "_D_CMAKE_LANG_PLATFORM": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CheckLanguage.cmake",
+        "range": {
+          "start": {
+            "line": 139,
+            "character": 10
+          },
+          "end": {
+            "line": 139,
+            "character": 32
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CheckLanguage.cmake",
+      "is_function": false
+    },
+    "CMAKE_${lang}_COMPILER": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CheckLanguage.cmake",
+        "range": {
+          "start": {
+            "line": 168,
+            "character": 8
+          },
+          "end": {
+            "line": 168,
+            "character": 30
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CheckLanguage.cmake",
+      "is_function": false
+    },
+    "${cmake_install_var}": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 336,
+            "character": 8
+          },
+          "end": {
+            "line": 336,
+            "character": 28
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "arch": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 648,
+            "character": 8
+          },
+          "end": {
+            "line": 648,
+            "character": 12
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "CMAKE_VISIBILITY_INLINES_HIDDEN": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 76,
+            "character": 6
+          },
+          "end": {
+            "line": 76,
+            "character": 37
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "cmake_install_var": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 326,
+            "character": 6
+          },
+          "end": {
+            "line": 326,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "boost_find_component": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 103,
+            "character": 6
+          },
+          "end": {
+            "line": 103,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": true
+    },
+    "cxx_no_rtti": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 153,
+            "character": 6
+          },
+          "end": {
+            "line": 153,
+            "character": 17
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+      "is_function": false
+    },
+    "test_executor_orig": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 658,
+            "character": 8
+          },
+          "end": {
+            "line": 658,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "arg_TARGET": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 400,
+            "character": 8
+          },
+          "end": {
+            "line": 400,
+            "character": 18
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "_branch_code": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 614,
+            "character": 6
+          },
+          "end": {
+            "line": 614,
+            "character": 18
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "cxx_exception_flags": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 134,
+            "character": 8
+          },
+          "end": {
+            "line": 134,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+      "is_function": false
+    },
+    "maybe_WORKING_DIRECTORY": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 417,
+            "character": 8
+          },
+          "end": {
+            "line": 417,
+            "character": 31
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_special_absolute": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 378,
+            "character": 9
+          },
+          "end": {
+            "line": 378,
+            "character": 41
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nUsed for SYSCONFDIR, LOCALSTATEDIR and RUNSTATEDIR paths",
+      "is_function": true
+    },
+    "cxx_test": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 267,
+            "character": 9
+          },
+          "end": {
+            "line": 267,
+            "character": 17
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake\n\ntest/name.cc is already implicitly included in the source file list.",
+      "is_function": true
+    },
+    "py_test": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 276,
+            "character": 9
+          },
+          "end": {
+            "line": 276,
+            "character": 16
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake\n\ntest/name.py. It does nothing if Python is not installed.",
+      "is_function": true
+    },
+    "_BOOST_QUIET": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 107,
+            "character": 8
+          },
+          "end": {
+            "line": 107,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "options": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 417,
+            "character": 6
+          },
+          "end": {
+            "line": 417,
+            "character": 13
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_MANDIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 575,
+            "character": 6
+          },
+          "end": {
+            "line": 575,
+            "character": 36
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "CMAKE_${lang}_PLATFORM": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CheckLanguage.cmake",
+        "range": {
+          "start": {
+            "line": 178,
+            "character": 10
+          },
+          "end": {
+            "line": 178,
+            "character": 32
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CheckLanguage.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 617,
+            "character": 4
+          },
+          "end": {
+            "line": 617,
+            "character": 45
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nSave for next run",
+      "is_function": false
+    },
+    "_GNUInstallDirs_BINDIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 419,
+            "character": 4
+          },
+          "end": {
+            "line": 419,
+            "character": 34
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nSet the standard default values before any special handling",
+      "is_function": false
+    },
+    "PACKAGE_${var}": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 459,
+            "character": 12
+          },
+          "end": {
+            "line": 459,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "_multi": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 592,
+            "character": 6
+          },
+          "end": {
+            "line": 592,
+            "character": 12
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "generated_dir": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 92,
+            "character": 6
+          },
+          "end": {
+            "line": 92,
+            "character": 19
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "install_prefix_is_same": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 284,
+            "character": 10
+          },
+          "end": {
+            "line": 284,
+            "character": 32
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "cxx_library_with_type": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 161,
+            "character": 9
+          },
+          "end": {
+            "line": 161,
+            "character": 30
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake\n\nwith one of them.",
+      "is_function": true
+    },
+    "cxx_base_flags": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 146,
+            "character": 6
+          },
+          "end": {
+            "line": 146,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+      "is_function": false
+    },
+    "Boost_PYTHON_VERSION_MAJOR": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 126,
+            "character": 8
+          },
+          "end": {
+            "line": 126,
+            "character": 34
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_LIBDIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 425,
+            "character": 4
+          },
+          "end": {
+            "line": 425,
+            "character": 34
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "_CHECK_COMPILER_STATUS": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CheckLanguage.cmake",
+        "range": {
+          "start": {
+            "line": 162,
+            "character": 10
+          },
+          "end": {
+            "line": 162,
+            "character": 32
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CheckLanguage.cmake",
+      "is_function": false
+    },
+    "CMAKE_CXX_STANDARD": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/unit_tests/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 3,
+            "character": 4
+          },
+          "end": {
+            "line": 3,
+            "character": 22
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/unit_tests/CMakeLists.txt",
+      "is_function": false
+    },
+    "accumulate_line": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 452,
+            "character": 12
+          },
+          "end": {
+            "line": 452,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "Boost_SUBMINOR_VERSION": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 229,
+            "character": 4
+          },
+          "end": {
+            "line": 229,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "CMAKE_CUDA_STANDARD": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 47,
+            "character": 4
+          },
+          "end": {
+            "line": 47,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+      "is_function": false
+    },
+    "CMAKE_CXX_EXTENSIONS": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 9,
+            "character": 6
+          },
+          "end": {
+            "line": 9,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "Boost_ALL_TARGETS": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 253,
+            "character": 6
+          },
+          "end": {
+            "line": 253,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "return_vars": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 682,
+            "character": 6
+          },
+          "end": {
+            "line": 682,
+            "character": 17
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "__boost_comp_nv": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 131,
+            "character": 8
+          },
+          "end": {
+            "line": 131,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "${option}": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakeDependentOption.cmake",
+        "range": {
+          "start": {
+            "line": 245,
+            "character": 8
+          },
+          "end": {
+            "line": 245,
+            "character": 17
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakeDependentOption.cmake",
+      "is_function": false
+    },
+    "Boost_VERSION_STRING": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 231,
+            "character": 4
+          },
+          "end": {
+            "line": 231,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "CMAKE_C_COMPILER": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 23,
+            "character": 4
+          },
+          "end": {
+            "line": 23,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+      "is_function": false
+    },
+    "_D_CMAKE_MAKE_PROGRAM": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CheckLanguage.cmake",
+        "range": {
+          "start": {
+            "line": 129,
+            "character": 10
+          },
+          "end": {
+            "line": 129,
+            "character": 31
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CheckLanguage.cmake",
+      "is_function": false
+    },
+    "test_executor": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 659,
+            "character": 8
+          },
+          "end": {
+            "line": 659,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_get_system_type_for_install": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 344,
+            "character": 9
+          },
+          "end": {
+            "line": 344,
+            "character": 52
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nCheck what system we are on for LIBDIR formatting",
+      "is_function": true
+    },
+    "arg_DISCOVERY_MODE": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 588,
+            "character": 8
+          },
+          "end": {
+            "line": 588,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "conda_prefix": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 354,
+            "character": 8
+          },
+          "end": {
+            "line": 354,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "cxx_test_with_flags": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 257,
+            "character": 9
+          },
+          "end": {
+            "line": 257,
+            "character": 28
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake\n\nfrom the given source files with the given compiler flags.",
+      "is_function": true
+    },
+    "install_project": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 298,
+            "character": 9
+          },
+          "end": {
+            "line": 298,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake\n\nInstalls the specified targets and configures the associated pkgconfig files.",
+      "is_function": true
+    },
+    "fix_default_compiler_settings_": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 18,
+            "character": 6
+          },
+          "end": {
+            "line": 18,
+            "character": 36
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake\n\nupdate variables in the function scope.",
+      "is_function": true
+    },
+    "cxx_no_exception": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 150,
+            "character": 6
+          },
+          "end": {
+            "line": 150,
+            "character": 22
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+      "is_function": false
+    },
+    "_branch_INIT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 558,
+            "character": 8
+          },
+          "end": {
+            "line": 558,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "PACKAGE_VERSION": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfigVersion.cmake",
+        "range": {
+          "start": {
+            "line": 2,
+            "character": 4
+          },
+          "end": {
+            "line": 2,
+            "character": 19
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfigVersion.cmake",
+      "is_function": false
+    },
+    "${absvar}": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 679,
+            "character": 8
+          },
+          "end": {
+            "line": 679,
+            "character": 17
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "gtest_add_tests": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 337,
+            "character": 9
+          },
+          "end": {
+            "line": 337,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake\n\n------------------------------------------------------------------------------",
+      "is_function": true
+    },
+    "ctest_file_base": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 614,
+            "character": 6
+          },
+          "end": {
+            "line": 614,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake\n\nDefine rule to generate test list for aforementioned test executable",
+      "is_function": false
+    },
+    "GTEST_HAS_ABSL": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 20,
+            "character": 7
+          },
+          "end": {
+            "line": 20,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "configured_pc": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 325,
+            "character": 10
+          },
+          "end": {
+            "line": 325,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+      "is_function": false
+    },
+    "multiValueArgs": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 419,
+            "character": 6
+          },
+          "end": {
+            "line": 419,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "__newArgs": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 381,
+            "character": 14
+          },
+          "end": {
+            "line": 381,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake\n\nthe latter.",
+      "is_function": false
+    },
+    "Boost_${comp}_FOUND": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 145,
+            "character": 6
+          },
+          "end": {
+            "line": 145,
+            "character": 25
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake\n\nFindPackageHandleStandardArgs expects <package>_<component>_FOUND",
+      "is_function": false
+    },
+    "Boost_NOT_FOUND_MESSAGE": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 219,
+            "character": 6
+          },
+          "end": {
+            "line": 219,
+            "character": 29
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "arg_SOURCES": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 403,
+            "character": 10
+          },
+          "end": {
+            "line": 403,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "${arg_TEST_LIST}": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 544,
+            "character": 8
+          },
+          "end": {
+            "line": 544,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_DATAROOTDIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 428,
+            "character": 4
+          },
+          "end": {
+            "line": 428,
+            "character": 39
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "BEARML_COMPILER": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 4,
+            "character": 4
+          },
+          "end": {
+            "line": 4,
+            "character": 19
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt\n\nfixes CMAKE_C/CXX_COMPILER. Pass -DBEARML_COMPILER=clang to opt in.",
+      "is_function": false
+    },
+    "cxx_no_exception_flags": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 135,
+            "character": 8
+          },
+          "end": {
+            "line": 135,
+            "character": 30
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+      "is_function": false
+    },
+    "versionTemplateFile": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake",
+        "range": {
+          "start": {
+            "line": 35,
+            "character": 6
+          },
+          "end": {
+            "line": 35,
+            "character": 25
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake",
+      "is_function": false
+    },
+    "maybe_INSTALL_PREFIX": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 605,
+            "character": 8
+          },
+          "end": {
+            "line": 605,
+            "character": 28
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "_input_variables": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CheckLanguage.cmake",
+        "range": {
+          "start": {
+            "line": 93,
+            "character": 8
+          },
+          "end": {
+            "line": 93,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CheckLanguage.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_cache_convert_to_path": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 263,
+            "character": 9
+          },
+          "end": {
+            "line": 263,
+            "character": 46
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": true
+    },
+    "GTEST_HAS_PTHREAD": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 67,
+            "character": 10
+          },
+          "end": {
+            "line": 67,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+      "is_function": false
+    },
+    "arg_TEST_LIST": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 579,
+            "character": 8
+          },
+          "end": {
+            "line": 579,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "GGAID_extra_args": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 641,
+            "character": 6
+          },
+          "end": {
+            "line": 641,
+            "character": 22
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_LIBDIR_get_default": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 440,
+            "character": 9
+          },
+          "end": {
+            "line": 440,
+            "character": 43
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": true
+    },
+    "Boost_${_BOOST_COMP}_FOUND": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 149,
+            "character": 6
+          },
+          "end": {
+            "line": 149,
+            "character": 32
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "gtest_test_type_regex": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 427,
+            "character": 6
+          },
+          "end": {
+            "line": 427,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "PACKAGE_INIT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 466,
+            "character": 6
+          },
+          "end": {
+            "line": 466,
+            "character": 18
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "gtest_build_include_dirs": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 109,
+            "character": 4
+          },
+          "end": {
+            "line": 109,
+            "character": 28
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt\n\nWhere Google Test's .h files can be found.",
+      "is_function": false
+    },
+    "default": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 327,
+            "character": 6
+          },
+          "end": {
+            "line": 327,
+            "character": 13
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "Boost_PYTHON_VERSION": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 119,
+            "character": 8
+          },
+          "end": {
+            "line": 119,
+            "character": 28
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "ENV{CUDAHOSTCXX}": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 35,
+            "character": 4
+          },
+          "end": {
+            "line": 35,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+      "is_function": false
+    },
+    "cxx_flags": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 220,
+            "character": 8
+          },
+          "end": {
+            "line": 220,
+            "character": 17
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake\n\nBigObj required for tests.",
+      "is_function": false
+    },
+    "Boost_FOUND": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 218,
+            "character": 6
+          },
+          "end": {
+            "line": 218,
+            "character": 17
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "CVF_ARCH_INDEPENDENT_CHECK": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake",
+        "range": {
+          "start": {
+            "line": 49,
+            "character": 8
+          },
+          "end": {
+            "line": 49,
+            "character": 34
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake",
+      "is_function": false
+    },
+    "CMAKE_${lang}_HOST_COMPILER": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CheckLanguage.cmake",
+        "range": {
+          "start": {
+            "line": 173,
+            "character": 10
+          },
+          "end": {
+            "line": 173,
+            "character": 37
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CheckLanguage.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_LOCALSTATEDIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 424,
+            "character": 4
+          },
+          "end": {
+            "line": 424,
+            "character": 41
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "maybe_else": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 669,
+            "character": 8
+          },
+          "end": {
+            "line": 669,
+            "character": 18
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "_BOOST_CONFIG": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 90,
+            "character": 8
+          },
+          "end": {
+            "line": 90,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "allKeywords": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 357,
+            "character": 6
+          },
+          "end": {
+            "line": 357,
+            "character": 17
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "_desc": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CheckLanguage.cmake",
+        "range": {
+          "start": {
+            "line": 89,
+            "character": 8
+          },
+          "end": {
+            "line": 89,
+            "character": 13
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CheckLanguage.cmake",
+      "is_function": false
+    },
+    "BEARML_USE_CUDA": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 51,
+            "character": 7
+          },
+          "end": {
+            "line": 51,
+            "character": 22
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/CMakeLists.txt\n\ncompiler is present. Force OFF with -DBEARML_USE_CUDA=OFF.",
+      "is_function": false
+    },
+    "gtest_dir": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googlemock/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 16,
+            "character": 6
+          },
+          "end": {
+            "line": 16,
+            "character": 15
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googlemock/CMakeLists.txt",
+      "is_function": false
+    },
+    "gtest_build_samples": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 19,
+            "character": 7
+          },
+          "end": {
+            "line": 19,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "_GNUInstallDirs_DATADIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 580,
+            "character": 4
+          },
+          "end": {
+            "line": 580,
+            "character": 35
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "cxx_strict": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 156,
+            "character": 6
+          },
+          "end": {
+            "line": 156,
+            "character": 16
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake\n\nFor building the gtest libraries.",
+      "is_function": false
+    },
+    "cxx_shared_library": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 204,
+            "character": 9
+          },
+          "end": {
+            "line": 204,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+      "is_function": true
+    },
+    "config_file": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 100,
+            "character": 6
+          },
+          "end": {
+            "line": 100,
+            "character": 17
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "_GNUInstallDirs_cache_path_fallback": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 325,
+            "character": 9
+          },
+          "end": {
+            "line": 325,
+            "character": 44
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nDATAROOTDIR.",
+      "is_function": true
+    },
+    "oneValueArgs": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 418,
+            "character": 6
+          },
+          "end": {
+            "line": 418,
+            "character": 18
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "new_arg_EXTRA_ARGS": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 655,
+            "character": 8
+          },
+          "end": {
+            "line": 655,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "full_description": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 315,
+            "character": 6
+          },
+          "end": {
+            "line": 315,
+            "character": 22
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nNormal flow",
+      "is_function": false
+    },
+    "_single": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 586,
+            "character": 6
+          },
+          "end": {
+            "line": 586,
+            "character": 13
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "CONFIGURE_PACKAGE_CONFIG_FILE": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 416,
+            "character": 9
+          },
+          "end": {
+            "line": 416,
+            "character": 38
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": true
+    },
+    "_config_file": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 564,
+            "character": 10
+          },
+          "end": {
+            "line": 564,
+            "character": 22
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "_D_CMAKE_TOOLCHAIN_FILE": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CheckLanguage.cmake",
+        "range": {
+          "start": {
+            "line": 134,
+            "character": 10
+          },
+          "end": {
+            "line": 134,
+            "character": 33
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CheckLanguage.cmake",
+      "is_function": false
+    },
+    "Boost_ALL_FOUND": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+        "range": {
+          "start": {
+            "line": 291,
+            "character": 6
+          },
+          "end": {
+            "line": 291,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfig.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_SYSCONFDIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 422,
+            "character": 4
+          },
+          "end": {
+            "line": 422,
+            "character": 38
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "cxx_strict_flags": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+        "range": {
+          "start": {
+            "line": 115,
+            "character": 8
+          },
+          "end": {
+            "line": 115,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/cmake/internal_utils.cmake",
+      "is_function": false
+    },
+    "PACKAGE_VERSION_EXACT": {
+      "location": {
+        "uri": "file:///usr/lib64/cmake/Boost-1.90.0/BoostConfigVersion.cmake",
+        "range": {
+          "start": {
+            "line": 9,
+            "character": 8
+          },
+          "end": {
+            "line": 9,
+            "character": 29
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib64/cmake/Boost-1.90.0/BoostConfigVersion.cmake",
+      "is_function": false
+    },
+    "gtest_force_shared_crt": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 13,
+            "character": 2
+          },
+          "end": {
+            "line": 13,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt\n\nGoogle Test also has to use one.",
+      "is_function": false
+    },
+    "gtest_hide_internal_symbols": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 24,
+            "character": 2
+          },
+          "end": {
+            "line": 24,
+            "character": 29
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "cmake_package_name": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 86,
+            "character": 4
+          },
+          "end": {
+            "line": 86,
+            "character": 22
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt\n\nalias libraries.",
+      "is_function": false
+    },
+    "gtest_discover_tests": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 551,
+            "character": 9
+          },
+          "end": {
+            "line": 551,
+            "character": 29
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": true
+    },
+    "_GNUInstallDirs_DOCDIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 582,
+            "character": 4
+          },
+          "end": {
+            "line": 582,
+            "character": 34
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "GGAID_dir": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 647,
+            "character": 8
+          },
+          "end": {
+            "line": 647,
+            "character": 17
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake\n\nHistorical behavior: use ${dir} from caller's scope",
+      "is_function": false
+    },
+    "_config_file_options": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 523,
+            "character": 6
+          },
+          "end": {
+            "line": 523,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "absInstallDir": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 446,
+            "character": 8
+          },
+          "end": {
+            "line": 446,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": false
+    },
+    "_GNUInstallDirs_LIBEXECDIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 421,
+            "character": 4
+          },
+          "end": {
+            "line": 421,
+            "character": 38
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "generate_apple_platform_selection_file": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+        "range": {
+          "start": {
+            "line": 522,
+            "character": 9
+          },
+          "end": {
+            "line": 522,
+            "character": 47
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake",
+      "is_function": true
+    },
+    "${var}": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 672,
+            "character": 12
+          },
+          "end": {
+            "line": 672,
+            "character": 18
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "targets_export_name": {
+      "location": {
+        "uri": "file:///home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 91,
+            "character": 6
+          },
+          "end": {
+            "line": 91,
+            "character": 25
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/ragarwal/vs_code_files/simplenet/SimpleNet/third_party/googletest/googletest/CMakeLists.txt",
+      "is_function": false
+    },
+    "_GNUInstallDirs_INFODIR_DEFAULT": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GNUInstallDirs.cmake",
+        "range": {
+          "start": {
+            "line": 565,
+            "character": 6
+          },
+          "end": {
+            "line": 565,
+            "character": 37
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GNUInstallDirs.cmake",
+      "is_function": false
+    },
+    "each_line_regex": {
+      "location": {
+        "uri": "file:///usr/share/cmake/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 428,
+            "character": 6
+          },
+          "end": {
+            "line": 428,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake/Modules/GoogleTest.cmake",
+      "is_function": false
+    }
+  }
+}
